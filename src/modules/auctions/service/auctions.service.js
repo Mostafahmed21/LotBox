@@ -191,3 +191,7 @@ export const freezeAuction = asyncHandler(async (req, res, next) => {
     });
     return successResponse({ res, status: 200, data: { auction: newAuction } });
 });
+
+
+
+export const getAuctions = asyncHandler(async (req, res, next) => {})
