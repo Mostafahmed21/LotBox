@@ -194,4 +194,3 @@ export const freezeAuction = asyncHandler(async (req, res, next) => {
 
 
 
-export const getAuctions = asyncHandler(async (req, res, next) => {})
